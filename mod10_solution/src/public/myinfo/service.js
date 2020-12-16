@@ -19,7 +19,7 @@ function SignUpService($http) {
     console.log('getItemByShortName');
     var response = $http({
       method: "GET",
-      url: (`https://davids-restaurant.herokuapp.com/menu_items/${itemShortName}.json`)
+      url: (`https://calm-savannah-12203.herokuapp.com/menu_items/${itemShortName}.json`)
     })
     .catch((error) => {
       console.log(error);
